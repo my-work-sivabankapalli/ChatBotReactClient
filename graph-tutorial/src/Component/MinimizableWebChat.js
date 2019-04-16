@@ -33,7 +33,7 @@ export default class extends React.Component {
       styleSet: createStyleSet({
         backgroundColor: 'Transparent'
       }),
-      token: 'rQTjZGOlRmw.dAA.RwBSAEcAeQBKAEcAYwBiAGIASwBHAEsANQBQAGwAVgBWAGwAUwB5AHkAdwAtADAA.UAk0KOrz1AE.VNA1_ogS7LI.2YxWjAZGWnLGHLHQ_S75X0LCItUh9MJrE5nN3Y_cEbw'
+      token: 'rQTjZGOlRmw.dAA.NAB5AHIAYwBlAGkAdQBTAEQAcABTAEQAbABHAHgAWQBlAE0AZQA2AHUAYQAtADAA.kP0Gn_nz1AE.HmkXTXHuopU.x85cJ_D5_XC00FBmsYoGZMdwQChgtYb7ksgo8Y6m_fY'
     };
   }
 
