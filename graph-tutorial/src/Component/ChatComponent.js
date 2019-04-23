@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import MinimizableWebChat from './MinimizableWebChat'
 
 
@@ -6,7 +6,7 @@ export class ChatComponent extends React.Component {
 
     render() {
 
-        if(this.props.authenticated == true)
+        if(this.props.authenticated === true)
         {
             return (<MinimizableWebChat />)
         }

@@ -33,13 +33,13 @@ export default class extends React.Component {
       styleSet: createStyleSet({
         backgroundColor: 'Transparent'
       }),
-      token: 'rQTjZGOlRmw.dAA.NAB5AHIAYwBlAGkAdQBTAEQAcABTAEQAbABHAHgAWQBlAE0AZQA2AHUAYQAtADAA.kP0Gn_nz1AE.HmkXTXHuopU.x85cJ_D5_XC00FBmsYoGZMdwQChgtYb7ksgo8Y6m_fY'
+      token: null
     };
   }
 
   async handleFetchToken() {
     if (!this.state.token) {
-      const res = await fetch('https://webchat.botframework.com/embed/HRSqueaky/directline/token', { method: 'POST' });
+      const res = await fetch('https://directline.botframework.com/v3/directline/tokens/generate', { method: 'POST',headers:{'Authorization': 'Bearer rQTjZGOlRmw.vB2An_cHDUHJ3jyE5HPzc_xzTIJi3kJxEgvZEsdCyiM'} });
       const { token } = await res.json();
 
       this.setState(() => ({ token }));

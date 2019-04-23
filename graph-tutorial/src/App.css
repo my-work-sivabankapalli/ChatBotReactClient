@@ -33,3 +33,7 @@
 .App > img {
   width: 100%;
 }
+
+.css-hgucfj > .content, [data-css-hgucfj]{
+  overflow:visible !important;
+}

@@ -5,7 +5,7 @@
 .connect-spinner {
   display: flex;
   margin: auto;
-  text-align: center;
+  text-align: right;
 }
 
 .connect-spinner > .content {
